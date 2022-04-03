@@ -17,7 +17,7 @@ const Card = ({ data, onSelection }) => {
       <View style={styles.mainContainer}>
         <View style={styles.rowContainer}>
           <View style={styles.titleContainer}>
-            <Title text="Guess The Number" />
+            <Title text="Is your number present?" />
           </View>
           {data.map((row, rowIndex) => (
             <View key={rowIndex} style={styles.columnContainer}>

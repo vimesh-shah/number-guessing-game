@@ -42,11 +42,6 @@ export default function App() {
           options={{ gestureEnabled: false, animationEnabled: false }}
         />
         <Stack.Screen
-          name="Card5"
-          component={NumberScreen}
-          options={{ gestureEnabled: false, animationEnabled: false }}
-        />
-        <Stack.Screen
           name="Result"
           component={ResultScreen}
           options={{ gestureEnabled: false, animationEnabled: false }}
