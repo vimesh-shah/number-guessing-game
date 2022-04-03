@@ -4,7 +4,7 @@ import Title from "../components/Title";
 
 const HomeScreen = ({ navigation }) => {
   const handleStart = () => {
-    navigation.navigate("Card0", { index: 0, value: 1 });
+    navigation.navigate("Card0", { index: 0, value: 0 });
   };
 
   return (

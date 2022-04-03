@@ -38,7 +38,11 @@ export default function App() {
         <Stack.Screen
           name="Card4"
           component={NumberScreen}
-          initialParams={{ index: 4 }}
+          options={{ gestureEnabled: false, animationEnabled: false }}
+        />
+        <Stack.Screen
+          name="Card5"
+          component={NumberScreen}
           options={{ gestureEnabled: false, animationEnabled: false }}
         />
         <Stack.Screen
